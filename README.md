@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Go Custom HTTP Reverse Proxy
 
 A lightweight custom HTTP reverse proxy written in Go.
@@ -41,3 +42,6 @@ go run main.go -listen :8080 -mode roundrobin -backends http://localhost:8081,ht
 ```bash
 go run main.go -listen :8080 -mode leastconn -health-interval 10s -backends http://localhost:8081,http://localhost:8082
 ```
+=======
+# Go-Load-Balancer
+>>>>>>> c8355bfaa7d14e8015931733be0ecd660c529261
