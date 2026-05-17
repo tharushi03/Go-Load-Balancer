@@ -26,6 +26,7 @@ go run backend_server.go -port 8082
 ```bash
 go run main.go -listen :8080 -mode roundrobin -backends http://localhost:8081,http://localhost:8082
 ```
+<img width="965" height="981" alt="image" src="https://github.com/user-attachments/assets/521b4404-7725-4c06-ac63-9f9b2826f781" />
 
 3. Send traffic to `http://localhost:8080`.
 
